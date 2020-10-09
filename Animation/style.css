@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    
+}
+
+h1 {
+    padding-left: 100px;
+}
+
+.titleblock {
+    background-color: darkblue;
+    height: 100px;
+    width: 95%;
+    margin-left: 25px;
+}
+
+.bodyblock {
+    margin-left: 50px;
+    width: 1200px;
+}
+
+.smblock {
+    background-color: darkmagenta;
+    height: 150px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    float: left;
+}
+
+.smblock:hover {
+    background-color: #cc00cc;
+}
