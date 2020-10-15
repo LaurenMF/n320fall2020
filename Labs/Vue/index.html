@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="book">
+
+        <h1> <book-view v-bind:book-info="title"></book-view> </h1>
+        <h3> <book-view v-bind:book-info="cover"></book-view> </h3>
+        <h2> <book-view v-bind:book-info="author"></book-view> </h2>
+
+        <button v-if="ready" v-on:click="nextBook">Next Book</button>
+
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="vue.js"></script>
+    </div>
+</body>
+</html>
