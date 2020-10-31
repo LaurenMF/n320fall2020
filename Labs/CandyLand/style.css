@@ -1,0 +1,76 @@
+body {
+    background-color: #bfbfbf;
+
+}
+
+#buttons {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+}
+
+.p1Draw {
+    background-color: #ff4d4d;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.p2Draw {
+    background-color: #3385ff;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.p3Draw{
+    background-color: #39ac39;
+    color: white;
+    border-color: white;
+    border-radius: 10px;
+}
+
+  .p1Circle {
+    fill: #c1272d;
+
+  }
+
+  .p2Circle {
+    fill: #2e3192;
+  }
+
+  .p3Circle {
+    fill: #006837;
+  }
+
+#cardDisplay {
+    border: 2px solid black;
+    height: 150px;
+    width: 300px;
+    float: right;
+    margin: -130px 20px 20px 0;
+}
+
+#squares {
+    height: 100px;
+    width: 300px;
+}
+
+#s1 {
+    height: 95px;
+    width: 120px;
+    float: left;
+    margin: 0px 0px 5px 15px;
+}
+
+#s2 {
+    height: 95px;
+    width: 120px;
+    float: right;
+    margin: 0px 15px 5px 0px;
+}
